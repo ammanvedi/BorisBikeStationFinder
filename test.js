@@ -1,6 +1,6 @@
 var L = require('./index');
 
-var nearest = L.findNearest(51.503902, -0.143859);
+var nearest = L.findNearest(51.503902, -0.143859, 3);
 
 //console.log('nearest ' + nearest.stationobj.name + " " + nearest.distance);
 

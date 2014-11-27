@@ -15,14 +15,14 @@ module.exports = (function () {
         return R * 2 * Math.asin(Math.sqrt(a));
     }
     
-    var ClosestTo = function (lat, lng)
+    var ClosestTo = function (lat, lng, kt)
     {
         var lowest = 90000;
         var dist;
         var lowestobj;
         var count = 0;
         var Distances = new Array();
-        var k = 3;
+        var k = kt;
         
         //find distances
         
@@ -85,8 +85,8 @@ module.exports = (function () {
         // A public variable
         clientid: 0,
         // A public function utilizing privates
-        findNearest: function (la, ln) {
-        return ClosestTo(la, ln);
+        findNearest: function (la, ln, kn) {
+        return ClosestTo(la, ln, kn);
         }
         
     } //end return 
