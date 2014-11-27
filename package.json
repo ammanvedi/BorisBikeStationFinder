@@ -1,0 +1,31 @@
+{
+  "name": "TFLBorisStationFinder",
+  "version": "0.0.1",
+  "description": "find the id, name and lat/lng of nearest TFL Barclays Bike Hire station to a given lat/lng",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "request": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ammanvedi/BorisBikeStationFinder"
+  },
+  "keywords": [
+    "TFL",
+    "data",
+    "bike",
+    "hire",
+    "cycle", 
+    "latitude",
+    "longitude"
+  ],
+  "author": "Amman Vedi <amman.vedi@gmail.com> (http://www.ammanv.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ammanvedi/BorisBikeStationFinder/issues"
+  },
+  "homepage": "https://github.com/ammanvedi/BorisBikeStationFinder"
+}
