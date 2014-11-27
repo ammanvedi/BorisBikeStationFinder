@@ -1,6 +1,6 @@
 {
   "name": "tfl-boris-station-finder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "find the id, name and lat/lng of nearest TFL Barclays Bike Hire station to a given lat/lng",
   "main": "index.js",
   "scripts": {
